@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+nav img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Scards1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+}
+
+.Scards11 {
+    height: 230px;
+    width: 230px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Scards11 img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.Scards11 p {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.whole {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.card11 {
+    padding: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    color: #e4002b;
+    margin: 10px 0;
+}
+
+p#para1 {
+    font-size: 14px;
+    color: #333;
+}
+
+#viewdetails, #applyoffer {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #e4002b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#applyoffer:hover, #viewdetails:hover {
+    background-color: #c30025;
+}
+
+.zoma {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
